@@ -1,20 +1,39 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🐍 PYBE — Learn Python Through Conversation
 
-# Run and deploy your AI Studio app
+> **A conversational, interactive way to learn Python libraries and programming concepts.**
 
-This contains everything you need to run your app locally.
+PYBE is an interactive learning platform designed to make Python education more **practical, visual, and engaging**.
 
-View your app in AI Studio: https://ai.studio/apps/7a429b99-9caa-4655-9d81-b413681b31b2
+Instead of learning through static syntax tables or documentation alone, PYBE presents technical concepts through conversations between two software engineers — **Ayushi** and **Ayush**.
 
-## Run Locally
+Each lesson begins with a real engineering problem, develops the underlying mental model, connects it to Python code, and ends with interactive practice and validation.
 
-**Prerequisites:**  Node.js
+---
 
+## ✨ Why PYBE?
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Learning a Python library often means switching between:
+
+- Documentation
+- Tutorials
+- Code examples
+- Debugging tools
+- AI assistants
+- Benchmarking tools
+
+PYBE brings these learning experiences together into a single interactive environment.
+
+### The Learning Flow
+
+```text
+Real-World Problem
+       ↓
+Conceptual Understanding
+       ↓
+Technical Explanation
+       ↓
+Python Implementation
+       ↓
+Interactive Experiment
+       ↓
+Practice & Validation
