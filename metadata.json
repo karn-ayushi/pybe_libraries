@@ -1,0 +1,6 @@
+{
+  "name": "Learn Python Through Conversation",
+  "description": "A minimal conversational interface where learners watch and participate in a natural technical dialogue between two people, unfolding from intuition to Python code.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

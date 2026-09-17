@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    background-color: #FDFCF6;
+    color: #1A1A1A;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+  .dark body,
+  html.dark body {
+    background-color: #121214;
+    color: #F4F4F5;
+  }
+  h1, h2, h3, .font-serif-heading {
+    font-family: 'Newsreader', 'Georgia', serif;
+  }
+  .font-display {
+    font-family: 'Cinzel', 'Newsreader', serif;
+  }
+  code, pre, kbd {
+    font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+}
+
+/* Custom subtle artistic scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #E9E5D9;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #F97316;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #2D2D38;
+}
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #EC4899;
+}
+
